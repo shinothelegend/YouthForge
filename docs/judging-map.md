@@ -1,0 +1,14 @@
+# Dubai Chambers Judging Alignment & Verification Map
+
+> Maps each official judging criterion from Dubai Chamber of Digital Economy to concrete YouthForge capabilities, live demo actions, and evidence artifacts.
+
+| Official Criterion | YouthForge Capability | Live Demonstration Action | Evidence Artifact / Path |
+| :--- | :--- | :--- | :--- |
+| **Agentic Autonomy** | Bounded 5-agent state graph (Spark -> Scout -> Judge -> Smith -> Trail) | User enters an idea; system plans tasks, dispatches research, scores feasibility, and seals plan without manual chaining | [`src/agents/orchestrator.ts`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/agents/orchestrator.ts) |
+| **Real Tool Use & Evidence** | Parallel search, URL extraction, and citation validation | Scout calls external search tools, links findings to Dubai RTA and WAM sources with access dates and excerpts | [`src/agents/scout.ts`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/agents/scout.ts) |
+| **Feasibility & Calibration** | 0–100 weighted rubric with 5 dimensions + active risk register | Judge delivers respectful, calibrated scores (Forge Ahead / Refine & Retry / Rethink); critic audits claim coverage | [`src/lib/rubric/calculator.ts`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/lib/rubric/calculator.ts) |
+| **Actionable Youth Impact** | Smith generates the first 5 concrete next actions (1–14 days) | Provides observable completion conditions, deliverables, and zero-cost alternative experiments | [`src/agents/smith.ts`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/agents/smith.ts) |
+| **Learning from Feedback** | Trail tracks milestones, re-evaluates rubric, and evolves plan | User logs completed interview; Trail updates feasibility score and mints Version N+1 with change reason | [`src/agents/trail.ts`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/agents/trail.ts) |
+| **Verifiable Portability** | Canonical SHA-256 digest + public verification portal | Reviewer copies hash from plan and verifies tamper-evident authenticity on `/verify/[hash]` | [`src/app/verify/[hash]/page.tsx`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/src/app/verify/%5Bhash%5D/page.tsx) |
+| **Youth Privacy Protection** | Zero minor PII collected; private ideas kept confidential | Binary age eligibility declaration; no birth dates or school details stored | [`docs/security.md`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/docs/security.md) |
+| **Business Potential** | 3 ranked monetization models + institutional B2B SaaS roadmap | Displays revenue hypotheses, who pays, and unit economic tradeoffs for Dubai market | [`submission/pitch-deck.md`](file:///c:/Users/JAIBAJRANG/Desktop/Work/Ai%20Agents%20For%20Dubai/submission/pitch-deck.md) |
