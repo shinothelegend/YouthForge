@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills\\frontend-design",
+      "skillFolderHash": "d9fb4bb1551f533b58ae5385ab9639dd86d54f8a86251b57b1d324f00c52fe07",
+      "repoHeadHash": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+      "installedAt": "2026-10-03T07:31:23.497Z",
+      "updatedAt": "2026-10-03T07:31:23.497Z"
+    },
+    "browser-use": {
+      "source": "browser-use/browser-use",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/browser-use/browser-use.git",
+      "skillPath": "skills\\browser-use",
+      "skillFolderHash": "071c3cd5141ad197dbab0961bd2f87c88354516c803a34bfa13445aa5d8369b2",
+      "repoHeadHash": "7be96ed8bafa8dfe1eef228b59cf5c884b8b2431",
+      "installedAt": "2026-10-03T07:31:46.603Z",
+      "updatedAt": "2026-10-03T07:31:46.603Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills\\agent-browser",
+      "skillFolderHash": "5cf63bfc9889ebc8182e7848e8dcd060ba2b94db9c739b18b62abf8bbe8acdba",
+      "repoHeadHash": "526157cfd4ec64f45939f9ba0f10d5936aa7ac33",
+      "installedAt": "2026-10-03T07:31:56.365Z",
+      "updatedAt": "2026-10-03T07:31:56.365Z"
+    },
+    "remotion-create": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/remotion-dev/skills.git",
+      "skillPath": "skills\\remotion-create",
+      "skillFolderHash": "3a7beb25ca61c1ee86e4198f50fb4d5fc427a3752d0b74a3ba0238317a4b5eec",
+      "repoHeadHash": "0b5db9daae40f42c73544d1cc0a8c733bd530eaa",
+      "installedAt": "2026-10-03T07:32:09.967Z",
+      "updatedAt": "2026-10-03T07:32:09.967Z"
+    },
+    "valyu-best-practices": {
+      "source": "valyuai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/valyuai/skills.git",
+      "skillPath": "valyu-search\\valyu-best-practices",
+      "skillFolderHash": "30581335212b1c4b4bfd9274d028526f1dd4fdccf6558d249e1e03caddfa0f34",
+      "repoHeadHash": "be57c51696fa74a0fce129e3dc165c93c599a0c9",
+      "installedAt": "2026-10-03T07:32:42.184Z",
+      "updatedAt": "2026-10-03T07:32:42.184Z"
+    },
+    "shannon": {
+      "source": "unicodeveloper/shannon",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/unicodeveloper/shannon.git",
+      "skillPath": "",
+      "skillFolderHash": "524eccbcce8d23f850a468fcc5667b7eac56417f3a2d92cace8a806469c6c235",
+      "repoHeadHash": "6a97124bee816c7cc76c6e17bb2b0fe8c0eae032",
+      "installedAt": "2026-10-03T07:33:53.425Z",
+      "updatedAt": "2026-10-03T07:33:53.425Z"
+    }
+  },
+  "dismissed": {}
+}
